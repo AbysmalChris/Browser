@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='styler.css' rel='stylesheet'>
+	<title class="name">CodeBrowser</title>
+	<script>
+		function search() {
+			var searchInput = document.getElementById("searchInput").value;
+			var allowedWebsites = ["https://stackoverflow.com/", "https://chat.openai.com/", "https://github.com/", "https://leetcode.com/problemset/all/"];
+
+			//if (allowedWebsites.includes(searchInput)) {
+				var iframe = document.getElementById("iframe");
+				iframe.src = searchInput;
+			//}  else {
+				//alert("Sorry, that website is not allowed.");
+			//}
+		}
+	</script>
+</head>
+<body>
+	<h1 class="name">CodeBrowser</h1>
+	<form class="searchbox">
+		<label id="explain" class="searchbox" for="searchInput">URL:        </label>
+		<input type="text"  id="searchInput">
+		<input id="button1" type="button" value="Search" onclick="search()">
+	</form>
+	<p>                                                                                      </p>
+	<iframe id="iframe"></iframe>
+	<p>                                                                                      </p>
+</body>
+<body>
+	<div id ="predecided">
+		<script>
+			function preselect() {
+  				var searcher = "https://codepen.io/Hyperplexed/full/zYWvXMM";
+  				var iframe = document.getElementById("iframe");
+  				iframe.src = searcher;
+}
+
+		</script>
+		<form>
+			<input id="button2" type="button" value="grid effects" onclick="preselect()">
+		</form>
+	</div>
+	<div id="stack">
+		<script>
+			function stacker() {
+				searched = "https://codepen.io/Hyperplexed/full/KKBjvbG";
+				var iframe = document.getElementById("iframe");
+				iframe.src = searched;
+			}
+		</script>
+		<form>
+			<input id="button3" type="button" value="hover effects" onclick="stacker()">
+		</form>
+	</div>
+	<div>
+		<script>
+			function leet() {
+				searchleet = "https://chriscoursespokemon.netlify.app/";
+				var iframe = document.getElementById("iframe");
+				iframe.src = searchleet;
+			}
+			function home() {
+				window.location.assign("index.html");
+			}
+		</script>
+		<form>
+			<input id="button4" type="button" value="play a game" onclick="leet()">
+			<p>                                                                   </p>
+			<p>                                                                   </p>
+			<a id="button5" type = "button" onclick="home()">Back to home</a>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    background-color: rgb(20, 20, 20);
+    position: center;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.name {
+    color: white;
+    font-size: 75px;
+    margin: 10px;
+}
+
+
+#iframe {
+    top: 30px;
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    border-color: black;
+}
+
+#button2 {
+    background-color: rgb(67, 67, 76);
+    color: white;
+    border-color: black;
+}
+
+#button2:hover {
+    border-color: rgb(61, 61, 78);
+    color: blue;
+    background-color: white;
+}
+
+#button1 {
+    background-color: rgb(67, 67, 76);
+    color: white;
+    border-color: black;
+}
+
+#button1:hover {
+    border-color: rgb(61, 61, 78);
+    color: blue;
+    background-color: white;
+}
+
+#searchInput {
+    background-color: white;
+    width: 450px;
+}
+
+#explain {
+    color: white;
+    size: 35px;
+}
+
+#button3 {
+    background-color: rgb(67, 67, 76);
+    color: white;
+    border-color: black;
+}
+
+#button3:hover{
+    border-color: rgb(61, 61, 78);
+    color: blue;
+    background-color: white;
+}
+
+#button4 {
+    background-color: rgb(67, 67, 76);
+    color: white;
+    border-color: black;
+}
+
+#button4:hover{
+    border-color: rgb(61, 61, 78);
+    color: blue;
+    background-color: white;
+}
+
+#button5 {
+    align-items: center;
+    color: white;
+    border-color: invisible;
+    font-size: clamp(1rem, 5vw, 5rem);
+    display: block;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+}
+
+#button5:hover {
+    border-color: rgb(61, 61, 78);
+    color: blue;
+}
